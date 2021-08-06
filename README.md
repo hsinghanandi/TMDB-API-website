@@ -5,7 +5,7 @@ This was my Term1 project for my Post-Graduate Program, where I practiced the im
 
 I have made this website from scratch and being a developer, I’ve tried to implement the best of my design skills. I made a gorgeous card-style layout for my website, with a minimal look and feel to it.
 
-Features of this Project:
+### Features of this Project:
 1. Search Movies by : Titles, Actors & Genres
 2. Seach for TV shows
 3. Search for Trending Movies of the Week
@@ -13,3 +13,11 @@ Features of this Project:
 All the information is taken from https://developers.themoviedb.org and was used for educational purposes only.
 
 Do check out my project at https://hsinghanandi-tmdb-api.netlify.app/
+
+
+## HOW TO RUN THE PROJECT :
+
+You need to signup for your API key at https://www.themoviedb.org/signup and replace your API key in JS/main.js at LN11, where the variable for apiKey has been defined. After that, just run the project and all the information will be right there at your disposal.
+
+
+Good Luck :heart:	
