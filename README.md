@@ -6,10 +6,7 @@ This was my Term1 project for my Post-Graduate Program, where I practiced the im
 I have made this website from scratch and being a developer, I’ve tried to implement the best of my design skills. I made a gorgeous card-style layout for my website, with a minimal look and feel to it.
 
 Features of this Project:
-1. Search Movies by :
-    Titles
-    Actors
-    Genres
+1. Search Movies by : Titles, Actors & Genres
 2. Seach for TV shows
 3. Search for Trending Movies of the Week
 
