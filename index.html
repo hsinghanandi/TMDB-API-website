@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>LS Film Studios</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="img/favicon_logo.png" />
+    <!-- Image taken from https://iconarchive.com/ -->
+    <script src="js/main.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Langara Students' Film Studios</h1>
+      <h2 id="currentCategory">Current Popular Movies</h2>
+    </header>
+    <main>
+      <div class="searchBar">
+        <div>
+          <input type="checkbox" id="pickTrending" />
+          <label for="pickTrending">Click to view Trending Movies</label>
+        </div>
+        <div>
+          <select name="filter" id="filterMovies" class="rounded">
+            <option value="movieTitles">Movie Title</option>
+            <option value="celebNames">Celeb Name</option>
+            <option value="tvShows">TV Show</option>
+            <option value="genres">Genre</option>
+          </select>
+
+          <select name="filter" id="genreList" class="rounded"></select>
+          <input id="searchItem" class="rounded" />
+          <button id="searchItemButton" class="shortBtn">Search</button>
+        </div>
+      </div>
+      <div id="cardContainer"></div>
+    </main>
+
+    <div id="movieDetailModal">
+      <div class="modal-container">
+        <span id="closeMovieDetailModal" class="closeMovieDetailModal">X</span>
+        <div class="movieDetailContainer" id="movieDetailContainer"></div>
+      </div>
+    </div>
+
+    <footer>
+      <p class="attribution">
+        &copy;TMDb - Data Source:
+        <a href="themoviedb.org"
+          >The Movie Db - For Academic, Non-Commercial Use</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>

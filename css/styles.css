@@ -1,0 +1,218 @@
+/* This is the main CSS file for index.html */
+
+html,
+body,
+p {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background: rgb(39, 42, 126);
+    background: linear-gradient(90deg, rgba(39, 42, 126, 1) 0%, rgba(222, 138, 210, 1) 31%, rgba(26, 42, 119, 1) 100%);
+    box-sizing: border-box;
+}
+
+h1 {
+    padding: 20px;
+    margin: 0;
+    max-width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+h2 {
+    padding: 20px 5px;
+    margin: 0;
+}
+
+header h1{
+    background-color: #1d2b78;
+    color: white;
+    text-align: center;
+}
+
+header h2 {
+    background-color: #1d2b78;
+    color:#F4BB44;
+    text-align: center;
+}
+
+/* Main Container Rules */
+.searchBar {
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+.searchBar div {
+    margin: 0;
+}
+
+.searchBar label {
+    margin-left: 5px;
+    margin-right: 15px;
+    color: whitesmoke;
+}
+
+.rounded {
+    padding: 8px;
+    margin: 15px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+#searchItemButton:hover {
+    cursor:pointer;
+}
+
+main {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 350px;
+    padding: 15px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.card .card-img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 6%);
+    cursor: pointer;
+    height: 112px;
+}
+
+.card .card-img.movie-img {
+    height: 197.750px;
+}
+
+.card .card-img.celeb-img {
+    height: 525px;
+}
+
+.card .card-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.card .card-subtitle {
+    margin-top: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.modal-container {
+    position: relative;
+    width: 75%;
+    margin-top: 5rem;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px 0px rgb(0 0 0 / 46%);
+    background-color: white;
+}
+
+#movieDetailModal {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background: #0000008c;
+    padding-top: 5rem;
+    display: none;
+}
+
+#movieDetailModal .closeMovieDetailModal {
+    right: 20px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.movieDetailContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.movieDetailContainer {
+    padding: 20px;
+}
+
+.movieDetailContainer img {
+    width: 30%;
+    border-radius: 5px;
+}
+
+.movieDetailContainer .detailContainer {
+    padding: 20px;
+    width: 70%;
+}
+
+.movieDetailContainer .detailContainer p {
+    padding-bottom: 10px;
+}
+
+.movieDetailContainer .detailContainer #flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movieDetailContainer .detailContainer #flexContainer .card {
+    width: 200px;
+    padding: 10px;
+}
+
+.movieDetailContainer .detailContainer #flexContainer .card .card-title,
+.movieDetailContainer .detailContainer #flexContainer .card .card-subtitle {
+    color: black;
+}
+
+.notFound {
+    flex: 1;
+    text-align: center;
+    padding: 4rem;
+}
+
+button {
+    color: #28307d;
+    background: #F4BB44;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-size: larger;
+    margin: 10px auto;
+}
+
+.shortBtn {
+    padding: 5px 30px;
+}
+
+/* Footer Container Rules */
+footer p {
+    padding: 20px 5px;
+    background: #1d2b78;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    background: none;
+}
