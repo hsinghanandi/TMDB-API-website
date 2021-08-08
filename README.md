@@ -1,5 +1,5 @@
 # TMDB-api
-Implementation of TMDB API to fetch &amp; show movies data based on their Titles, Actors &amp; Genres.
+Implementation of TMDB API to fetch &amp; show movies data based on their Titles, Actors &amp; Genres. Users can also search for the latest trending movies of the week.
 
 This was my Term1 project for my Post-Graduate Program, where I practiced the implementation of APIs and have come up with this product. This was made back in April 2021. I have used TMDB’s API to fetch data from their server and show them on my website.
 
