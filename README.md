@@ -1,7 +1,7 @@
 # TMDB-api
 Implementation of TMDB API to fetch &amp; show movies data based on their Titles, Actors &amp; Genres.
 
-This was my Term1 project for my Post-Graduate Program, where I practiced the implementation of APIs and have come up with this product. I have used TMDB’s API to fetch data from their server and show them on my website.
+This was my Term1 project for my Post-Graduate Program, where I practiced the implementation of APIs and have come up with this product. This was made back in April 2021. I have used TMDB’s API to fetch data from their server and show them on my website.
 
 I have made this website from scratch and being a developer, I’ve tried to implement the best of my design skills. I made a gorgeous card-style layout for my website, with a minimal look and feel to it.
 
