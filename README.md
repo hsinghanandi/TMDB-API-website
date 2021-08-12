@@ -14,6 +14,8 @@ All the information is taken from https://developers.themoviedb.org and was used
 
 Do check out my project at https://hsinghanandi-tmdb-api.netlify.app/
 
+![TMDB-API-website](https://user-images.githubusercontent.com/46571445/129234041-58c47da2-5f42-4262-9896-a81c7fc7643b.png)
+
 
 ## HOW TO RUN THE PROJECT :
 
